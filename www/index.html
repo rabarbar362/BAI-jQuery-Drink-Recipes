@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/pgb.js"></script>
+		<script src="cordova.js"></script>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body onload="init()">
+		
+		<!-- My app main page -->
+		<div data-role="page" id="pageone">
+
+				<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+					<h1>Choose your drink:</h1>
+					<a href="#smoothie">Green Smoothie</a><br>
+					<a href="#mocha">Iced Mocha</a><br>
+					<a href="#chocolate">Hot Chocolate</a>
+				</div>
+
+		  <div data-role="header">
+			  <a href="#mypanel"><img src="img/hamburger.png" height="10"></a>
+			<h1>Drink recipes</h1>
+			<a href="#pageone"><img src="img/home.png" height="10"></a>
+			</div>
+			
+		<div data-role="main" class="ui-content">
+				<img src="img/cat.gif" style="display:block;margin-left:auto;margin-right:auto;"></img>	
+		</div>
+
+		  <div data-role="footer" data-position="fixed">
+			<h1>(c) Barbara Nogaś</h1>
+			</div> 
+			
+		</div> 
+		
+		<!-- drink 1 page -->
+		<div data-role="page" id="smoothie">
+				<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+						<h1>Choose your drink:</h1>
+						<a href="#smoothie">Green Smoothie</a><br>
+						<a href="#mocha">Iced Mocha</a><br>
+						<a href="#chocolate">Hot Chocolate</a>
+					</div>
+
+			<div data-role="header">
+					<a href="#mypanel"><img src="img/hamburger.png" height="10"></a>
+				<h1>Green Smoothie recipe</h1>
+				<a href="#pageone"><img src="img/home.png" height="10"></a>
+			</div>
+
+			 <div data-role="main" class="ui-content">
+					<img src="img/greensmoothie.jpg" width="500px" style="display:block;margin-left:auto;margin-right:auto;"></img>
+					<h2>Ingredients:</h2>
+					<ul>
+						<li>1 cup frozen mango</li>
+						<li>1 cup frozen pineapple</li>
+						<li>2 cups spinach</li>
+						<li>1.5 cups coconut water</li>
+					</ul>
+					<p>Combine all ingredients into a large, high-powered blender and blend until smooth and creamy.
+							Serve and enjoy!</p>
+
+			</div>
+				<div data-role="footer" data-position="fixed">
+					<h1>(c) Barbara Nogaś</h1>
+				</div> 
+		</div>
+
+			<!-- drink 2 page -->
+		<div data-role="page" id="mocha">
+				<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+						<h1>Choose your drink:</h1>
+						<a href="#drink1">Green Smoothie</a><br>
+						<a href="#mocha">Iced Mocha</a><br>
+						<a href="#chocolate">Hot Chocolate</a>
+				</div>
+
+				<div data-role="header">
+					<a href="#mypanel"><img src="img/hamburger.png" height="10"></a>
+					<h1>Iced Mocha recipe</h1>
+					<a href="#pageone"><img src="img/home.png" height="10"></a>
+				</div>
+	
+				 <div data-role="main" class="ui-content">
+						<img src="img/coffee.jpg" width="500px" style="display:block;margin-left:auto;margin-right:auto;"></img>
+						<h2>Ingredients:</h2>
+						<ul>
+							<li>1 tablespoon or 17 grams Coffee</li>
+							<li>2/3 cup or 200 ml water</li>
+							<li>1/2 cup milk</li>
+							<li>1 teaspoon cocoa powder</li>
+							<li>1 teaspoon vanilla extract</li>
+							<li>2 teaspoon brown sugar</li>
+							<li>4 ice cubes</li>
+							<li>Low fat whipping cream for garnishing (optional)</li>
+						</ul>
+						<p>Place a sauce pan over medium heat. Bring water to boil and turn off the heat. Add coffee and stir it once. Cover the lid of pan and leave for 3 minute 30 seconds.  After that filter the coffee using a sieve in a clean pot.<br>
+						In a small bowl mix brown sugar, vanilla extract, cocoa powder with half cup of milk. Stir well to combine into a syrup.<br>
+						In a mason jar or a large glass put ice at the bottom. Then pour syrup and then brewed coffee.<br>
+						Stir with a spoon and top it up with whipped cream. Delicious iced mocha coffee is ready to serve.</p>
+	
+				</div>
+
+				<div data-role="footer" data-position="fixed">
+					<h1>(c) Barbara Nogaś</h1>
+				</div> 
+			
+		</div>		
+
+		<!-- drink 3 page -->
+		<div data-role="page" id="chocolate">
+				<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+						<h1>Choose your drink:</h1>
+						<a href="#smoothie">Green Smoothie</a><br>
+						<a href="#mocha">Iced Mocha</a><br>
+						<a href="#drink3">Hot Chocolate</a>
+					</div>
+
+			<div data-role="header">
+					<a href="#mypanel"><img src="img/hamburger.png" height="10"></a>
+				<h1>Green Smoothie recipe</h1>
+				<a href="#pageone"><img src="img/home.png" height="10"></a>
+			</div>
+
+			 <div data-role="main" class="ui-content">
+					<img src="img/chocolate.jpg" width="500px" style="display:block;margin-left:auto;margin-right:auto;"></img>
+					<h2>Ingredients:</h2>
+					<ul>
+						<li>1 1/2 cups whole milk</li>
+						<li>1/2 cup heavy cream</li>
+						<li>2 teaspoons powdered sugar</li>
+						<li>1/2 teaspoon espresso powder (optional, but delicious for intensifying chocolate flavor)</li>
+						<li>8 ounces bittersweet chocolate, at least 70%, chopped</li>
+						<li>Giant bowl of whipped cream, for serving</li>
+					</ul>
+					<p>
+						In a medium saucepan over medium heat, whisk together the whole milk, heavy cream, powdered sugar, and espresso powder until small bubbles appear around the edges. Do not allow the mixture to boil.<br>
+						Remove from saucepan from the heat and stir in the chopped chocolate until melted, returning the sauce to low heat if needed for the chocolate to melt completely. Serve warm, topped with lots of whipped cream.
+					</p>
+
+			</div>
+		<div data-role="footer" data-position="fixed">
+			<h1>(c) Barbara Nogaś</h1>
+		</div> 
+	</div> 
+		
+	</body>
+</html>
